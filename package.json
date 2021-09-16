@@ -1,0 +1,29 @@
+{
+  "name": "dt173g_moment2",
+  "version": "1.0.0",
+  "description": "Moment 2 - Webbutveckling III DT174G",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frla1901/dt173g_moment3.git"
+  },
+  "keywords": ["nodeJs", "npm", "gulp", "gulp-concat", "gulp-cssnano", "gulp-imagemin", "gulp-sourcemaps", "gulp-terser", "browser-sync", "git", "gitHub" ],
+  "author": "Frida Lazzari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frla1901/dt173g_moment3/issues"
+  },
+  "homepage": "https://github.com/frla1901/dt173g_moment3#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.0.1"
+  }
+}

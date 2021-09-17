@@ -1,0 +1,15 @@
+/* Reset of margins and padding etc + adding box-sizing + font-size adjustment */
+
+body, h1, h2, h3, h4, h5, h6, p, dl[class], dt, dd, ol[class], ul[class], li, a, i, section, article, .container, .blockquote, .quote, .byline, form, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* 62,5% of standard (16px) = 10px*/
+}

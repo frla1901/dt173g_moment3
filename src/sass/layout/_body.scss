@@ -1,0 +1,17 @@
+body {
+    font-family: $font-stack;
+    background-color: $bg-color;
+    color: $color;
+    margin: $margin;
+
+    p {
+        font-size: $font-size-xs;
+    }
+    a {
+        font-size: $font-size-sm;
+    }
+    a:hover {
+        color: $color-hover;
+        text-decoration: underline;
+    }
+}

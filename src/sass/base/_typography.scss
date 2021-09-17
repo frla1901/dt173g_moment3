@@ -1,0 +1,22 @@
+// font
+$font-stack: Poppins , sans-serif;
+$font-headings: Open Sans, sans-serif;
+
+// size
+$font-size-xs: 12px;
+$font-size-sm: 18px;
+$font-size-m: 24px;
+$font-size-l: 36px;
+$font-size-xl: 48px;
+$font-size-xxl: 60px;
+
+//color
+$bg-color: lighten(rgb(189, 135, 168), 15);
+$color: darken(rgb(189, 135, 168), 40);
+$color-headings: darken(rgb(189, 135, 168), 90);
+$color-links: darken(rgb(180, 177, 177), 80);
+$color-hover: darken(rgb(189, 135, 168), 50);
+
+// margin and padding
+$margin: 2.5%;
+$padding: 20px;

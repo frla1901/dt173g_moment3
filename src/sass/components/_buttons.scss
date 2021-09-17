@@ -1,9 +1,17 @@
 button {
-    color: $color-links;
+    color: $color-navs;
+    background-color: $bg-color-header;
     border: $border;
     border-radius: $border-rad;
-    margin-bottom: $margin;
+    margin: $margin;
     padding:$padding;
     font-family: $font-special;
     font-size: $font-s;
+
+}
+
+button:hover {
+    color: $color-hover;
+    border: $border-hover;
+    text-decoration: underline;
 }

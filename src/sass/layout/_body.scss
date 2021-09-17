@@ -7,10 +7,21 @@ body {
         font-size: $font-xs;
         margin: $margin;
     }
+    a {
+        color: $color-links;
+        font-size: $font-xs;
+    }
     ul {
+        list-style:square;
+    }
         li {
             font-size: $font-xs;
             margin-left: $margin;
         }
-    }
+        .date {
+            text-align: center;
+            text-transform: uppercase;
+            color: $color-navs;
+            font-size: $font-s;
+        }
 }

@@ -1,3 +1,9 @@
 button {
-    background-color: adjust-hue(rgb(206, 174, 212), $degrees: 25);
+    color: $color-links;
+    border: $border;
+    border-radius: $border-rad;
+    margin-bottom: $margin;
+    padding:$padding;
+    font-family: $font-special;
+    font-size: $font-s;
 }

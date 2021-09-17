@@ -2,16 +2,15 @@ body {
     font-family: $font-stack;
     background-color: $bg-color;
     color: $color;
-    margin: $margin;
 
     p {
-        font-size: $font-size-xs;
+        font-size: $font-xs;
+        margin: $margin;
     }
-    a {
-        font-size: $font-size-sm;
-    }
-    a:hover {
-        color: $color-hover;
-        text-decoration: underline;
+    ul {
+        li {
+            font-size: $font-xs;
+            margin-left: $margin;
+        }
     }
 }

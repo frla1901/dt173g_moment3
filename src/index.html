@@ -13,7 +13,7 @@
     <meta name="author" content="Frida Lazzari">
     <title>Webbutveckling III | Moment 3</title>
 
-    <!-- länk till mina css filer -->
+    <!-- link to css file -->
     <link rel="stylesheet" href="/css/main.css" type="text/css">
 
     <!-- Link google fonts -->
@@ -26,62 +26,77 @@
     <header>
         <nav>
             <ul>
-                <li><a href="https://www.miun.se/utbildning/program/data-och-it/webbutveckling/om-programmet/">TWEUG</a></li>
-                <li><a href="https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/Sok-kursplan/kursplan/?kursplanid=22706">Webb III</a></li>
+                <li><a href="https://www.miun.se/utbildning/program/data-och-it/webbutveckling/om-programmet/">TWEUG</a>
+                </li>
+                <li><a
+                        href="https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/Sok-kursplan/kursplan/?kursplanid=22706">Webb
+                        III</a></li>
                 <li><a href="https://frla1901.github.io/dt173g_moment1/">Moment 1</a></li>
                 <li><a href="https://naughty-wiles-808fae.netlify.app">Moment 2</a></li>
                 <li><a href="#">Moment 3</a></li>
+
                 <!-- funktionen i date.js -->
                 <p id="date" class="date"></p>
             </ul>
         </nav>
     </header>
-    <div class="container">
-        <h1>Moment 3</h1>
-        <h2> CSS-preprocessorer och SASS </h2>
-        <picture>
-            <img src="images/Sass-Logo---Seal-(Color).png" alt="SASS logo" id="sass">
-        </picture>
-        <br>
-        <br>
-        <article>
-            <h3>Heading 3</h3>
-            <p>Paragraf 1</p>
-            <p><a href="https://www.miun.se/kursplaner">Kursplaner</p>
-            </p>
-            <picture>
-                <img src="https://user-images.githubusercontent.com/77203135/132713271-cd6a007d-ffa4-4fe7-a170-477fa81b4430.png"
-                    alt="Excel dokument som visar mina kurser" id="course">
-            </picture>
-            </picture>
-            <br>
+
+    <section class="container">
+        <div class="container__row">
+            <h1 class="container__col-12">Moment 3</h1>
+        </div>
+        <article class="container__row">
+            <h2 class="container__col-12"> CSS-preprocessorer och SASS </h2>
+        <div class="container__row">
+            <p class="container__col-6">CSS-preprocessorer är ett program som genererar CSS-kod från en preproccesors
+                egna syntax. En preprocessor kommer med flera funktioner som inte existerar i vanlig CSS-kod.
+                Funktionalitet så som att använda variabler, återanvändbara funktioner, import av mindre delar(sk
+                "partials") och mycket mer.</p>
+                <p class="container__col-6">Vilket gör att det går att göra koden mycket mer strukturerad och lättare att underhålla vid större
+                projekt än vad det går att göra med ren CSS. Sass är en populär CSS-preprocessor och det finns två olika
+                syntaxer: Sass och SCSS.</p>
+            </div>
         </article>
+    <div class="container container--fluid">
         <article>
-            <h4>Framtida kurser</h4>
-            <ul>
-                <li>Programmering i C#.net</li>
-                <li>Asp.net med C#</li>
-                <li>Självständigt Arbete</li>
-            </ul>
-            <br>
+            <h3>Moment i kursen Webb III</h3>
+            <ol>
+                <li>Versionshantering & Git</li>
+                <li>NodeJs och Gulp</li>
+                <li>CSS-preprocessorer och SASS</li>
+                <li>Ecmascript och Typescript</li>
+                <li>REST-webbtjänster med PHP</li>
+                <li>Projekt</li>
+            </ol>
         </article>
     </div>
-    <aside>
-        <br>
-        <br>
-        <br>
-
-        <!-- funktionen i button.js -->
-        <button onclick="buttonFunction()">Mitt gitHub Repo</button>
-        <br>
+    <div class="container">
+        <article>
+            <picture>
+                <img src="images/Git-Icon-Black.png" alt="Git logo" id="git">
+                <img src="images/gulp-2x.png" alt="Git logo" id="gulp">
+                <img src="images/Sass-Logo---Seal-(Color).png" alt="SASS logo" id="sass">
+                <img src="images/ts-logo-512.png" alt="Typescript logo" id="typescript">
+                <img src="images/rest.png" alt="Restfulapi logo" id="rest">
+            </picture>
+        </article>
+    </div>
+    <aside class="container">
+        <h4>Översikt mina studier</h4>
+        <picture>
+            <img src="https://user-images.githubusercontent.com/77203135/132713271-cd6a007d-ffa4-4fe7-a170-477fa81b4430.png"
+                alt="Excel dokument som visar mina kurser" id="course">
+        </picture>
+        <p><a href="https://www.miun.se/kursplaner">Läs mer om kursplanerna här</a></p>
+        </p>
     </aside>
-
-    <footer>
-        <ul>
-            <li><a href="frla1901@student.miun.se">frla1901@student.miun.se</a></li>
-            <br>
-            <br>
-        </ul>
+</section>
+    <footer class="container">
+        <p>Skapad av Frida Lazzari september 2021</p>
+        <br>
+        <p>Kontakta mig:<a href="frla1901@student.miun.se">frla1901@student.miun.se</a></p>
+        <!-- funktionen i button.js -->
+        <button  onclick="buttonFunction()">Mitt gitHub Repo</button>
     </footer>
     <!-- länk till mina js filer -->
     <script type="text/javascript" src="js/main.js"></script>

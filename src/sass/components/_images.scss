@@ -1,7 +1,17 @@
 img {
-    margin: $margin;
+    margin: $margin-text;
 }
-#sass {
-    max-width: 20vw;
-    max-height: 20vh;
+#sass,
+#git,
+#gulp,
+#typescript,
+#rest {
+    max-width: 12vw;
+    max-height: 12vh;
 }
+
+#course {
+    max-width: 80vw;
+    max-height: 80vh;
+}
+

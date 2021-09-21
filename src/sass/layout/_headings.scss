@@ -7,9 +7,10 @@ h6 {
     font-family: $font-headings;
     color: $color-headings;
     padding-top: $padding;
-    padding-bottom: $padding;
+    padding-bottom: $padding-text;
     margin: $margin;
 }
+
 h1 {
     font-size: $font-l;
 }
@@ -28,3 +29,4 @@ h5 {
 h6 {
     font-size: $font-xs;
 }
+

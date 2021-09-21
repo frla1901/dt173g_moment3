@@ -1,0 +1,8 @@
+a {
+    color: $color-links;
+    font-size: $font-xs;
+}
+a:hover {
+    color: $color-hover;
+    text-decoration: underline;
+}

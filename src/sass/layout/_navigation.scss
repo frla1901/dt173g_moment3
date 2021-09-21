@@ -3,11 +3,13 @@ nav {
         margin: 0;
         padding: 0;
         list-style: none;
-    }
+        width: 100%;
+
     li{
         display: inline-block;
         margin: $margin;
-    }
+        font-size: $font-xs;
+    
     a{
         display: block;
         padding: 6px 12px;
@@ -18,8 +20,8 @@ nav {
         border-radius: $border-rad;
     }
     a:hover {
-        color: $color-hover;
         border:$border-hover;
-        text-decoration: underline;
+    }
+}
     }
 }

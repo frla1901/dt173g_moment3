@@ -5,23 +5,20 @@ body {
 
     p {
         font-size: $font-xs;
-        margin: $margin;
-    }
-    a {
-        color: $color-links;
-        font-size: $font-xs;
+        margin: $margin-text;
     }
     ul {
-        list-style:square;
+        list-style: square;
     }
-        li {
-            font-size: $font-xs;
-            margin-left: $margin;
-        }
-        .date {
-            text-align: center;
-            text-transform: uppercase;
-            color: $color-navs;
-            font-size: $font-s;
-        }
+    li {
+        font-size: $font-xs;
+        margin-left: $margin;
+    }
+    .date {
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-navs;
+        font-size: $font-s;
+    }
+
 }

@@ -1,22 +1,5 @@
 footer {
-    ul {
-        list-style: none;
-        margin:$margin;
+    a {
+        display: block;
     }
-        li {
-        float:right;
-        padding: $padding;
-        }
-        a {
-            font-size: $font-xs;
-            display: block;
-            padding: 6px 12px;
-            color: $color-links;
-        }
-        a:hover {
-            color: $color-hover;
-            text-decoration: underline;
-        }
 }
-
-

@@ -1,17 +1,6 @@
+// images styling
 img {
     margin: $margin-text;
+    max-width: 8vw;
+    max-height: 8vh;
 }
-#sass,
-#git,
-#gulp,
-#typescript,
-#rest {
-    max-width: 12vw;
-    max-height: 12vh;
-}
-
-#course {
-    max-width: 80vw;
-    max-height: 80vh;
-}
-

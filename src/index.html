@@ -16,7 +16,7 @@
     <!-- link to css file -->
     <link rel="stylesheet" href="/css/main.css" type="text/css">
 
-    <!-- Link google fonts -->
+    <!-- Link to google fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Poppins:ital,wght@0,400;0,600;1,400&display=swap"
         rel="stylesheet">
@@ -28,38 +28,35 @@
             <ul>
                 <li><a href="https://www.miun.se/utbildning/program/data-och-it/webbutveckling/om-programmet/">TWEUG</a>
                 </li>
-                <li><a
-                        href="https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/Sok-kursplan/kursplan/?kursplanid=22706">Webb
-                        III</a></li>
+                <li><a href="https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/Sok-kursplan/kursplan/?kursplanid=22706">Webb III</a></li>
                 <li><a href="https://frla1901.github.io/dt173g_moment1/">Moment 1</a></li>
                 <li><a href="https://naughty-wiles-808fae.netlify.app">Moment 2</a></li>
                 <li><a href="#">Moment 3</a></li>
 
-                <!-- funktionen i date.js -->
+                <!-- function in date.js -->
                 <p id="date" class="date"></p>
             </ul>
         </nav>
     </header>
-
     <section class="container">
-        <div class="container__row">
-            <h1 class="container__col-12">Moment 3</h1>
-        </div>
-        <article class="container__row">
-            <h2 class="container__col-12"> CSS-preprocessorer och SASS </h2>
-        <div class="container__row">
-            <p class="container__col-6">CSS-preprocessorer är ett program som genererar CSS-kod från en preproccesors
+        <h1>Moment 3</h1>
+        <article class="wrapper">
+            <h2>CSS-preprocessorer och SASS </h2>
+            <p>CSS-preprocessorer är ett program som
+                genererar CSS-kod från en preproccesors
                 egna syntax. En preprocessor kommer med flera funktioner som inte existerar i vanlig CSS-kod.
                 Funktionalitet så som att använda variabler, återanvändbara funktioner, import av mindre delar(sk
                 "partials") och mycket mer.</p>
-                <p class="container__col-6">Vilket gör att det går att göra koden mycket mer strukturerad och lättare att underhålla vid större
+            <br>
+            <br>
+            <p>Vilket gör att det går att göra koden
+                mycket mer strukturerad och lättare att underhålla vid större
                 projekt än vad det går att göra med ren CSS. Sass är en populär CSS-preprocessor och det finns två olika
                 syntaxer: Sass och SCSS.</p>
-            </div>
         </article>
-    <div class="container container--fluid">
-        <article>
-            <h3>Moment i kursen Webb III</h3>
+
+        <article class="list-wrapper">
+            <h2>Moment i kursen Webb III</h2>
             <ol>
                 <li>Versionshantering & Git</li>
                 <li>NodeJs och Gulp</li>
@@ -69,9 +66,7 @@
                 <li>Projekt</li>
             </ol>
         </article>
-    </div>
-    <div class="container">
-        <article>
+        <article class="img-wrapper">
             <picture>
                 <img src="images/Git-Icon-Black.png" alt="Git logo" id="git">
                 <img src="images/gulp-2x.png" alt="Git logo" id="gulp">
@@ -80,25 +75,18 @@
                 <img src="images/rest.png" alt="Restfulapi logo" id="rest">
             </picture>
         </article>
-    </div>
-    <aside class="container">
-        <h4>Översikt mina studier</h4>
-        <picture>
-            <img src="https://user-images.githubusercontent.com/77203135/132713271-cd6a007d-ffa4-4fe7-a170-477fa81b4430.png"
-                alt="Excel dokument som visar mina kurser" id="course">
-        </picture>
-        <p><a href="https://www.miun.se/kursplaner">Läs mer om kursplanerna här</a></p>
-        </p>
-    </aside>
-</section>
-    <footer class="container">
-        <p>Skapad av Frida Lazzari september 2021</p>
-        <br>
-        <p>Kontakta mig:<a href="frla1901@student.miun.se">frla1901@student.miun.se</a></p>
-        <!-- funktionen i button.js -->
-        <button  onclick="buttonFunction()">Mitt gitHub Repo</button>
+    </section>
+    <footer class="footer-wrapper">
+        <ul>
+            <li>Skapad av Frida Lazzari september 2021</li>
+            <br>
+            <li>Kontakta mig:</li>
+            <li><a href="mailto:frla1901@student.miun.se">frla1901@student.miun.se</a></li>
+            <!-- functionen in button.js file -->
+            <li><button onclick="buttonFunction()">Mitt gitHub Repo</button></li>
+        </ul>
     </footer>
-    <!-- länk till mina js filer -->
+    <!-- link to my js file -->
     <script type="text/javascript" src="js/main.js"></script>
 
 </body>

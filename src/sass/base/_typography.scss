@@ -1,36 +1,37 @@
+// variables
+
 // font
-$font-stack: Poppins , sans-serif;
-$font-headings: Georgia, 'Times New Roman', Times, serif;
+$font-stack: Poppins, sans-serif;
+$font-headings: Georgia, "Times New Roman", Times, serif;
 $font-special: Open Sans, sans-serif;
 
 // size
-$font-xxs: 12px;
-$font-xs: 18px;
-$font-s: 24px;
-$font-m: 36px;
-$font-l: 48px;
-$font-xl: 60px;
+$font-xxs: 1.2rem;
+$font-xs: 1.6rem;
+$font-s: 1.8rem;
+$font-m: 2.4rem;
+$font-l: 3.6rem;
+$font-xl: 4.8rem;
 
-//color
-
-$color: darken(#D06297, 60);
-$color-light: lighten(#D06297, 99);
-$color-headings: darken(#D06297, 90);
+// color functions
+$color: darken(#d06297, 60);
+$color-light: lighten(#d06297, 99);
+$color-headings: darken(#d06297, 90);
+$color-links: lighten(#d06297, 5);
+$color-hover: darken(#d06297, 50);
 $color-navs: white;
-$color-links: lighten(#D06297, 5);
-$color-hover: darken(#D06297, 50);
 
-// background
-$bg-color: lighten(#D06297, 35);
-$bg-color-header: #D06297;
+// background color functions
+$bg-color: lighten(#d06297, 35);
+$bg-color-header: #d06297;
 
 // margin and padding
 $margin: 2.5%;
 $margin-text: 0.5% 2.5%;
-$padding: 20px;
-$padding-text: 10px;
+$padding: 2rem;
+$padding-text: 1rem;
 
 // border
-$border: 2px solid $color-navs;
-$border-hover: 2px solid darken(#D06297, 50);
-$border-rad: 5px;
+$border: 0.2rem solid $color-navs;
+$border-hover: 0.2rem solid darken(#d06297, 50);
+$border-rad: 0.5rem;

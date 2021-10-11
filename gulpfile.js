@@ -1,4 +1,4 @@
-/* Min Gulp kod - Moment 3 DT173G Webbutveckling III*/
+/* Min Gulp kod - Test DT173G Webbutveckling III*/
 
 
 const {src, dest, parallel, series, watch} = require('gulp');   // Skapa variabel för att hämta i gulp-paketet med metoderna (src, dest, parallel, series och watch)
